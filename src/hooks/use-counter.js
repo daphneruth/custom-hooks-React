@@ -1,5 +1,5 @@
  import { useState, useEffect } from "react";
- const counter= useCounter = () =>
+ const useCounter = () =>
  {
     const [counter, setCounter] = useState(0);
 
