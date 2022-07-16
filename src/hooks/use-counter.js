@@ -14,7 +14,7 @@
       }, 1000);
   
       return () => clearInterval(interval);
-    }, []);
+    }, [forward]);
  }
  return counter;
  export default useCounter;
